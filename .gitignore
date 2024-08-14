@@ -37,3 +37,4 @@ lerna-debug.log*
 /docker/postgresql
 /docker/caddy/cvnestvue.com+4.pem
 /docker/caddy/cvnestvue.com+4-key.pem
+/public/build

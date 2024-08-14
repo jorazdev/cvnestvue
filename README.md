@@ -1,5 +1,20 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+  <a href="https://vitejs.dev/logo-with-shadow.png" target="blank">
+    <img src="https://vitejs.dev/logo-with-shadow.png" width="200" alt="Vite Logo" />
+  </a>
+  <a href="http://nestjs.com/" target="blank">
+    <img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" />
+  </a>
+  <a href="https://vuejs.org" target="blank">
+    <img src="https://vuejs.org/images/logo.png" width="200" alt="Vue Logo" />
+  </a>
+  <a href="https://www.typescriptlang.org" target="blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png" width="200" alt="Vue Logo" />
+  </a>
+  <a href="https://www.typescriptlang.org" target="blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/220px-Docker_%28container_engine%29_logo.svg.png" width="200" alt="Vue Logo" />
+  </a>
+  
 </p>
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
@@ -35,39 +50,20 @@ $ npm install
 ## Running the app
 
 ```bash
-# development
-$ npm run start
+# run docker compose
+docker compose up
 
-# watch mode
-$ npm run start:dev
+# watch mode vite
+docker compose exec web sh > npm run vite
 
-# production mode
-$ npm run start:prod
-```
+# lunch application on local
+https://cvnestvue.com:448
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
 
 ## Support
+mail: jorazdev@gmail.com
+tel: +261329774062
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+# Site web portfolio
+https://jorazdev.com
+```
